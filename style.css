@@ -1,0 +1,50 @@
+.ss{
+  font-style: italic;
+  color: gray;
+  transform:matrix(1.00,0.00,0.00,1.00,6,0);
+  -ms-transform:matrix(1.00,0.00,0.00,1.00,6,0);
+  -webkit-transform:matrix(1.00,0.00,0.00,1.00,6,0);
+}
+#fn{
+  margin-top: 5%;
+  align-content: center;
+  align-items: center;
+}
+.textbox{
+  width: 100%;
+  height: 100%;
+  border-style: dashed;
+}
+.savebtn{
+  display: flex;
+  align-items: center;
+  transform:matrix(1.00,0.00,0.00,1.00,10,0);
+  -ms-transform:matrix(1.00,0.00,0.00,1.00,10,0);
+  -webkit-transform:matrix(1.00,0.00,0.00,1.00,10,0);
+  align-content: center;
+}
+.wt{
+  transform:matrix(1.00,0.00,0.00,1.00,2,0);
+  -ms-transform:matrix(1.00,0.00,0.00,1.00,2,0);
+  -webkit-transform:matrix(1.00,0.00,0.00,1.00,2,0);
+}
+.header{
+  display: flex;
+  align-items: center;
+  height: 10%;
+  margin-left: 10px;
+}
+.main{
+  height: 90%;
+}
+body{
+  background-color: lightblue;
+}
+body, html{
+  height: 100%;
+  width: 100%;
+}
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
