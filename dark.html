@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta content="WebTX Online Text Editor" property="og:title" />
+  <meta content="WebTX is an online text editor made by lu2000luk that let you write and export files" property="og:description"/>
+  <meta content="dark.html" property="og:url" />
+  <!--<meta content="#Nothing for now 😥#" property="og:image" />-->
+  <meta content="#2587be" data-react-helmet="true" name="theme-color"/>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width">
+  <title>WebTX</title>
+  <link href="dark.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="header" class="header">
+    <h3 class="wt">WebTX </h3>
+    <br>
+    <h5 id="savestatus" class="ss">[JS NOT LOADED]</h5>
+    <div class="savebtn">
+      <a id="al" class="alink">
+        <button class="btn btn-primary sb" onclick="download()">Save</button>
+      </a>
+      <div class="input-group mb-3 savebtn">
+        <input type="text" class="form-control" placeholder="FileName" aria-label="FileName" aria-describedby="basic-addon2" value="webtx.txt" id="fn">
+      </div>
+    </div>
+  </header>
+  <main id="main" class="main"><textarea id="textbox" class="textbox" autofocus></textarea></main>
+  <script src="script.js"></script>
+</body>
+</html>
+
