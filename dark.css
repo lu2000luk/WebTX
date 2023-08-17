@@ -1,0 +1,46 @@
+body{
+   background-color: #121212;
+ }
+ body, html{
+   height: 100%;
+   width: 100%;
+   color: #ffffff;
+ }
+ html{
+   overflow-x: hidden;
+   overflow-y: hidden;
+ }
+ .header{
+   display: flex;
+   align-items: center;
+   height: 10%;
+   margin-left: 10px;
+ }
+ .main{
+   height: 90%;
+ }
+ .wt{
+   transform:matrix(1.00,0.00,0.00,1.00,2,0);
+   -ms-transform:matrix(1.00,0.00,0.00,1.00,2,0);
+   -webkit-transform:matrix(1.00,0.00,0.00,1.00,2,0);
+ }
+ .savebtn{
+   display: flex;
+   align-items: center;
+   transform:matrix(1.00,0.00,0.00,1.00,10,0);
+   -ms-transform:matrix(1.00,0.00,0.00,1.00,10,0);
+   -webkit-transform:matrix(1.00,0.00,0.00,1.00,10,0);
+   align-content: center;
+ }
+ .textbox{
+   width: 100%;
+   height: 100%;
+   border-style: dashed;
+   color: #ffffff;
+ }
+ #fn{
+   margin-top: 5%;
+   align-content: center;
+   align-items: center;
+ }
+
