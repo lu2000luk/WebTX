@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WebTX</title>
+  <link rel="stylesheet" type="text/css" href="dark.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <h3 class="wt">WebTX </h3>
+    <br>
+    <h5 id="savestatus" class="ss">[JS NOT LOADED]</h5>
+    <div class="savebtn">
+      <a id="al" class="alink">
+        <button class="btn btn-primary sb" onclick="download()">Save</button>
+      </a>
+      <div class="input-group mb-3 savebtn">
+        <input type="text" class="form-control" placeholder="FileName" aria-label="FileName" aria-describedby="basic-addon2" value="webtx.txt" id="fn">
+      </div>
+    </div>
+  </header>
+  <main id="main" class="main"><textarea id="textbox" class="textbox" autofocus></textarea></main>
+  <script src="script.js"></script>
+</body>
+</html>
+
